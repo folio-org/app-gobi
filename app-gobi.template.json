@@ -10,9 +10,15 @@
     }
   ],
   "modules": [
-
+    {
+      "name": "mod-gobi",
+      "version": "latest"
+    }
   ],
   "uiModules": [
-
+    {
+      "name": "folio_gobi-settings",
+      "version": "latest"
+    }
   ]
 }
