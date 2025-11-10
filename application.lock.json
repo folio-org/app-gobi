@@ -1,6 +1,6 @@
 {
   "name": "app-gobi",
-  "version": "1.1.0-SNAPSHOT.100100000002792",
+  "version": "1.1.0-SNAPSHOT.100200000000362",
   "description": "Application Descriptor Repository for the FOLIO Gobi integration",
   "platform": "complete",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_gobi-settings",
-      "version": "4.0.1099000000000102"
+      "version": "4.0.1099000000000107"
     }
   ]
 }
