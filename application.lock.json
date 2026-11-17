@@ -1,12 +1,12 @@
 {
-  "id" : "app-gobi-1.1.1",
+  "id" : "app-gobi-1.1.2",
   "name" : "app-gobi",
-  "version" : "1.1.1",
+  "version" : "1.1.2",
   "description" : "Application Descriptor Repository for the FOLIO Gobi integration",
   "modules" : [ {
-    "id" : "mod-gobi-3.1.1",
+    "id" : "mod-gobi-3.1.2",
     "name" : "mod-gobi",
-    "version" : "3.1.1"
+    "version" : "3.1.2"
   } ],
   "uiModules" : [ {
     "id" : "folio_gobi-settings-4.1.0",
@@ -23,7 +23,7 @@
     "preRelease" : "false"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-gobi-3.1.1",
+    "id" : "mod-gobi-3.1.2",
     "name" : "GOBI® Module",
     "requires" : [ {
       "id" : "orders",
@@ -189,7 +189,7 @@
       "subPermissions" : [ "gobi.mappings.fields.collection.get", "gobi.mappings.translators.collection.get", "gobi.mappings.types.collection.get" ]
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/mod-gobi:3.1.1",
+      "dockerImage" : "folioorg/mod-gobi:3.1.2",
       "dockerPull" : true,
       "env" : [ {
         "name" : "JAVA_OPTIONS",
